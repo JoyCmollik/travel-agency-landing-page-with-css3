@@ -23,8 +23,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-top: 100px;
+}
+
 .container {
   width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
@@ -36,15 +49,24 @@ img {
   color: var(--title-text-color);
 }
 
+.section-title .section-secondary-title {
+  text-align: center;
+  font-size: 1.125rem;
+  color: #5E6282;
+  font-weight: 600;
+  margin-bottom: 0.75rem; 
+}
+
+.section-title .section-primary-title {
+  text-align: center;
+  font-size: 3.125rem;
+}
+
 /******************************
         HEADER STYLES
 *******************************/
 header {
   position: relative;
-  background-image: url(/images/hero-bg-shape.png);
-  background-position-x: 100%;
-  background-size: 40%;
-  background-repeat: no-repeat;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -54,12 +76,12 @@ header .hero-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-content: center;
-}
+} 
 
 .hero-brand-title {
   color: #df6951;
   font-size: 1.25rem;
-  margin: 4rem 0 1rem 0;
+  margin: 1rem 0;
 }
 
 .hero-title {
@@ -111,20 +133,82 @@ header .hero-container {
 .hero-img .hero-icon-img-1 {
     position: absolute;
     top: 20%;
-    right: 5%;
+    right: 10.5%;
     width: 8%;
+    z-index: -1;
 }
 
 .hero-img .hero-icon-img-2 {
     position: absolute;
-    top: 10%;
+    top: 14%;
     right: 35%;
     width: 8%;
+    z-index: -1;
+}
+
+.hero-img .hero-icon-img-3 {
+    position: absolute;
+    top: -8%;
+    right: 0;
+    width: 40%;
+    z-index: -10;
 }
 
 /******************************
-        UNIVERSAL STYLES
+        BEST SERVICES STYLES
 *******************************/
+.best-services {
+  position: relative;
+  padding-bottom: 1.25rem;
+}
+
+.service-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.service-item img {
+  width: 80px;
+}
+
+.service-item-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1E1D4C;
+  margin-bottom: 1rem;
+}
+
+.service-item-info {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  width: 11rem;
+}
+
+.service-style-item::after {
+  content: '';
+  width: 100px;
+  height: 100px;
+  background: #DF6951;
+  border-radius: 30px 0px 10px 10px; 
+}
+
+.best-service-shape-img {
+  position: absolute;
+  width: 10%;
+  top: 0;
+  right: 0;
+}
 
 /******************************
         UNIVERSAL STYLES
