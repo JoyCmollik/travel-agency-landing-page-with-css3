@@ -1,0 +1,159 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Volkhov', serif; */
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+:root {
+  --primary-bg: #ffffff;
+  --secondary-bg: #dfd7f9;
+  --title-text-color: #181e4b;
+  --primary-text-color: #5e6282;
+  --transition: all 0.4s ease-in-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1200px;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  font-family: "Volkhov", serif;
+  color: var(--title-text-color);
+}
+
+/******************************
+        HEADER STYLES
+*******************************/
+header {
+  position: relative;
+  background-image: url(/images/hero-bg-shape.png);
+  background-position-x: 100%;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+header .hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+}
+
+.hero-brand-title {
+  color: #df6951;
+  font-size: 1.25rem;
+  margin: 4rem 0 1rem 0;
+}
+
+.hero-title {
+  font-size: 5.25rem;
+  letter-spacing: -0.04em;
+  line-height: 5.5rem;
+  width: 34rem;
+  margin-bottom: 1.4rem;
+}
+
+.hero-info {
+  font-size: 1rem;
+  line-height: 1.9rem;
+  color: var(--primary-text-color);
+  width: 75%;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-btn-1 {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--primary-bg);
+  padding: 0.7rem 0.7rem;
+  background-color: #f1a501;
+  border-radius: 0.4rem;
+}
+
+.hero-btn-2 {
+  margin-left: 2.75rem;
+  text-decoration: none;
+}
+
+.hero-btn-2 .play-icon {
+  font-size: 0.9rem;
+  color: #ffffff;
+  background-color: #df6951;
+  margin-right: 1.25rem;
+  padding: 0.8rem 1.05rem;
+  border-radius: 50%;
+}
+
+.hero-img > img {
+  width: 100%;
+}
+
+.hero-img .hero-icon-img-1 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 8%;
+}
+
+.hero-img .hero-icon-img-2 {
+    position: absolute;
+    top: 10%;
+    right: 35%;
+    width: 8%;
+}
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
+
+/******************************
+        UNIVERSAL STYLES
+*******************************/
