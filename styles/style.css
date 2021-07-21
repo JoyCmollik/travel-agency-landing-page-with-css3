@@ -30,7 +30,7 @@ main {
 }
 
 section {
-  margin-top: 100px;
+  margin-top: 7rem;
 }
 
 .container {
@@ -157,9 +157,8 @@ header .hero-container {
 /******************************
         BEST SERVICES STYLES
 *******************************/
-.best-services {
+.best-services-section {
   position: relative;
-  padding-bottom: 1.25rem;
 }
 
 .service-container {
@@ -300,8 +299,61 @@ header .hero-container {
 }
 
 /******************************
-        UNIVERSAL STYLES
+    TOP DESTINATIONS STYLES
 *******************************/
+.destination-cards-container {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2.75rem;
+  place-items: center;
+}
+
+.destination-card {
+  position: relative;
+  width: 314px;
+  height: 457px;
+  border-radius: 1.5rem;
+  box-shadow: 0 33px 80px rgba(0, 0, 0, 0.1)  ; 
+	-webkit-box-shadow: 0 33px 80px rgba(0, 0, 0, 0.1)  ; 
+	-moz-box-shadow: 0 33px 80px rgba(0, 0, 0, 0.1)  ;
+  overflow: hidden; 
+}
+
+.destination-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.destination-details {
+  position: absolute;
+  width: 100%;
+  height: 135px;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  background: #FFFFFF;
+  border-radius: 0 0 1.5rem 1.5rem;
+  bottom: -0.5%;
+}
+
+.destination-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.destination-info .destination-name , .destination-cost {
+  color: var(--primary-text-color);
+  font-size: 1.125rem;
+}
+
+.destination-duration {
+  color: var(--primary-text-color);
+  font-size: 1rem;
+}
+
+.destination-duration-icon {
+  margin-right: 0.875rem;
+}
 
 /******************************
         UNIVERSAL STYLES
