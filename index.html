@@ -25,6 +25,15 @@
     <!---------- start of header ----------->
     <header>
        <!-- start of nav -->
+       <div class="mobile-nav">
+         <a href="#" class="nav-icon-1">
+           <i class="fas fa-bars"></i>
+          </a>
+         <a href="#" class="nav-icon-2 place-center">
+           Login <span class="nav-icon-2-sign"><i class="fas fa-sign-in-alt"></i></span>
+          </a>
+       </div>
+       <!-- desktop nav -->
       <nav style="width: 1200px">
         <div class="nav-logo">
           <img src="images/logo.png" alt="logo of the company">
@@ -398,14 +407,16 @@
               <p class="about-us-post-author-info">New York, America</p>
             </article>
             
-            <a href="#" class="about-us-post-icon-1"
-            ><i class="fas fa-chevron-up"></i
+            <div class="about-post-icons">
+              <a href="#" class="about-us-post-icon-1"
+              ><i class="fas fa-chevron-up"></i
               ></a>
               <a href="#" class="about-us-post-icon-2"
               ><i class="fas fa-chevron-down"></i
-                ></a>
+              ></a>
             </div>
-            <!-- end of about-us-right part -->
+          </div>
+          <!-- end of about-us-right part -->
       </section>
       <!---------- end of about us section ---------->
 
@@ -429,13 +440,18 @@
           <div class="subscribe-content-input-group">
             <div class="input-items place-center">
               <span class="input-icon"><i class="far fa-envelope"></i></span>
-              <input type="email" name="email" id="email" placeholder="Your email" autocomplete="off"></div>
-              <button type="submit">Subscribe</button>
+              <input type="email" name="email" id="email" placeholder="Your email" autocomplete="off">
+            </div>
+            <button type="submit">Subscribe</button>
 
-              <!-- position relative components -->
-              <div class="send-icon"><i class="fas fa-paper-plane"></i></div>
-              <img src="images/subscribe/subscribe-bg-shape-1.png" alt="a shape" class="bg-shape-1">
-              <img src="images/subscribe/subscribe-bg-shape-1.png" alt="a shape" class="bg-shape-2">
+            <!-- position relative components -->
+            <div class="send-icon">
+              <i class="fas fa-paper-plane"></i>
+            </div>
+            <img 
+            src="images/subscribe/subscribe-bg-shape-1.png" alt="a shape" class="bg-shape-1">
+            <img 
+            src="images/subscribe/subscribe-bg-shape-1.png" alt="a shape" class="bg-shape-2">
           </div>
         </div>
       </section>
