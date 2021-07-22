@@ -1007,7 +1007,10 @@ footer {
 
 /******************************
         MEDIA QUERY
-*******************************/  
+*******************************/
+/* ###############################################################
+                                          MOBILE STYLES
+############################################################### */
 @media only screen and (max-width: 689px) {
   /* universal styles */
   .container {
@@ -1162,6 +1165,7 @@ footer {
     position: static;
     width: 100%;
     height: 100%;
+    box-shadow: none;
     margin-top: 2.5rem;
     background: none;
     padding-left: 0;
@@ -1290,6 +1294,9 @@ footer {
 /******************************
         MEDIA QUERY
 *******************************/
+/* ###############################################################
+                                          TAB STYLES
+############################################################### */
 @media only screen and (min-width:689px) and (max-width: 991px) {
   /* universal styles */
   .container {
