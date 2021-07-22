@@ -1126,6 +1126,15 @@ footer {
 
   .service-style-item {
     margin-bottom: 2.5rem;
+    box-shadow: none;
+  }
+  
+  .service-style-item::before {
+    display: none;
+  }
+
+  .best-service-shape-img {
+    display: none;
   }
 
   /* top-destinations */
@@ -1407,11 +1416,25 @@ footer {
   /* best-services */
   .service-container {
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 3.5rem;
+  }
+
+  .service-style-item {
+    box-shadow: none;
+  }
+
+  .service-style-item::before {
+    display: none;
+  }
+
+  .best-service-shape-img {
+    display: none;
   }
 
   /* top-destinations */
   .destination-cards-container {
   grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 2.5rem;
   }
   
   /* next-trip */
@@ -1599,6 +1622,15 @@ footer {
   /* best-services */
   .service-container {
   grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 3.5rem;
+  }
+
+  .service-style-item {
+    box-shadow: none;
+  }
+
+  .service-style-item::before {
+    display: none;
   }
 
   .best-service-shape-img {
